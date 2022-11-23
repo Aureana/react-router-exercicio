@@ -1,9 +1,12 @@
+import Router from "./Router/Router"
+
 function App() {
   return (
-    <>
-      Exercicio de Router
-    </>
-  );
+    <div>
+      <h1>Aula de React Router</h1>
+      <Router/>
+    </div>
+  )
 }
 
-export default App;
+export default App
